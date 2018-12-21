@@ -1,0 +1,43 @@
+<template>
+    <lightning-card title="Accounts" icon-name="standard:account">
+        <!-- Data table to diplay accounts -->
+        <div class="table-accounts">
+            <lightning-datatable 
+                data={accounts}
+                columns={columns}
+                key-field="id"
+                max-row-selection={maxRowSelection}
+                show-row-number-column=true
+                onrowselection={getSelectedAccount}
+                onrowaction={openRecord}
+                class="ls-datatable"
+                min-column-width="185px">
+            </lightning-datatable>  
+        </div>
+    </lightning-card>
+
+    <template if:true={recordId}>
+        <div class="slds-m-top_small">
+            <lightning-layout>
+                <lightning-layout-item size="8" class="slds-p-right_x-small">
+                    <lightning-card variant="Narrow" title="Account" icon-name="standard:account">
+                        <div class="slds-p-horizontal_medium">
+                            <lightning-record-form 
+                                record-id={recordId} 
+                                object-api-name="Account"
+                                fields={fields}
+                                columns="2"
+                                mode="readonly"     
+                            ></lightning-record-form> 
+                        </div>   
+                    </lightning-card>
+                </lightning-layout-item>
+                <lightning-layout-item size="4" class="slds-p-left_x-small">
+                    <lightning-card variant="Narrow" title="Address" icon-name="standard:location">
+                        <lightning-map map-markers={mapMarkers} zoom-level={zoomLevel}></lightning-map>
+                    </lightning-card>
+                </lightning-layout-item>
+            </lightning-layout>
+        </div>
+    </template>
+</template>
