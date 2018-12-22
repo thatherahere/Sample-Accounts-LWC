@@ -7,14 +7,14 @@ import getRecentModifiedAccounts from "@salesforce/apex/AccountListController.ge
 const fields=['Name','AccountNumber','OwnerId','AccountSource','ParentId','AnnualRevenue','Type','CreatedById','LastModifiedById','Industry','Description','Phone'];
 
 const columns = [
-    {label: 'Account Name', fieldName: 'recordId', type: 'url', typeAttributes: { label:{fieldName:'Name'}, target: '_parent'}},
+    {label: 'Account Name', fieldName: 'recordId', type: 'url', typeAttributes: { label:{fieldName:'Name'}, tooltip:{fieldName:'Name'}, target: '_parent'}},
     {label: 'Account Number', fieldName: 'AccountNumber', type: 'text'},
     {label: 'Account Source', fieldName: 'AccountSource', type: 'text'},
     {label: 'Annual Revenue', fieldName: 'AnnualRevenue', type: 'currency', typeAttributes: { currencyCode: 'USD'}},
     {label: 'Type', fieldName: 'Type', type: 'text'},
     {label: 'Website', fieldName: 'Website', type: 'url', typeAttributes: { target: '_parent'}},
     {label: 'Industry', fieldName: 'Industry', type: 'text'},
-    {label: 'Account Owner', fieldName: 'OwnerId', type: 'url', typeAttributes: { label:{fieldName:'OwnerName'}, target: '_parent'}},
+    {label: 'Account Owner', fieldName: 'OwnerId', type: 'url', typeAttributes: { label:{fieldName:'OwnerName'}, tooltip:{fieldName:'OwnerName'}, target: '_parent'}},
 ];
 
 export default class Accounts extends NavigationMixin(LightningElement) {
