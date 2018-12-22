@@ -6,7 +6,7 @@ import getRecentModifiedAccounts from "@salesforce/apex/AccountListController.ge
 // Fields to Display for Selected record in RecordForm
 const fields=['Name','AccountNumber','OwnerId','AccountSource','ParentId','AnnualRevenue','Type','CreatedById','LastModifiedById','Industry','Description','Phone'];
 
-const columns = [
+const columns = [ 
     {label: 'Account Name', fieldName: 'recordId', type: 'url', typeAttributes: { label:{fieldName:'Name'}, tooltip:{fieldName:'Name'}, target: '_parent'}},
     {label: 'Account Number', fieldName: 'AccountNumber', type: 'text'},
     {label: 'Account Source', fieldName: 'AccountSource', type: 'text'},
