@@ -52,4 +52,4 @@ Sample Lightning Web component showing uses of Lightning Data Table, Displaying 
     ```
     sfdx force:org:open
     ```
-1. In App Launcher, select the **Accounts (Custom Tab)** app.
+1. In App Launcher, select the **Accounts** (Custom Tab).
