@@ -1,0 +1,149 @@
+{
+    "records": [
+        {
+            "attributes" :{
+                "type": "Account",
+                "referenceId": "SampleAccount1"
+            },
+            "Name" : "Salesforce.com",
+            "Type" : "Technology Partner",
+            "Phone" : "8827946294",
+            "AccountNumber" : "CS284924",
+            "Industry" : "Engineering",
+            "AnnualRevenue" : 8390000000,
+            "website" : "https://www.salesforce.com",
+            "BillingStreet" : "415 Mission Street, 3rd Floor",
+            "BillingCity" : "San Francisco",
+            "BillingState" : "CA",
+            "BillingPostalCode" : "94105",
+            "BillingCountry" : "United States"
+        },
+        {
+            "attributes" :{
+                "type": "Account",
+                "referenceId": "SampleAccount2"
+            },
+            "Name" : "GenePoint",
+            "Type" : "Customer - Channel",
+            "Phone" : "(650) 867-3450",
+            "AccountNumber" : "CC978213",
+            "Industry" : "Biotechnology",
+            "AnnualRevenue" : 30000000,
+            "website" : "http://www.genepoint.com",
+            "BillingStreet" : "345 Shoreline Park",
+            "BillingCity" : "Mountain View",
+            "BillingState" : "CA",
+            "BillingPostalCode" : "94043",
+            "BillingCountry" : "United States"
+        },
+        {
+            "attributes" :{
+                "type": "Account",
+                "referenceId": "SampleAccount3"
+            },
+            "Name" : "United Oil and Gas, UK",
+            "Type" : "Customer - Direct",
+            "Phone" : "+44 191 4956203",
+            "AccountNumber" : "CD355119-A",
+            "Industry" : "Energy",
+            "AnnualRevenue" : 30000000,
+            "website" : "http://www.uos.com",
+            "BillingStreet" : "Kings Park, 17th Avenue, Team Valley Trading Estate",
+            "BillingCity" : "Gateshead",
+            "BillingState" : "Tyne and Wear",
+            "BillingPostalCode" : "NE26 3HS",
+            "BillingCountry" : "United Kingdom"
+        },
+        {
+            "attributes" :{
+                "type": "Account",
+                "referenceId": "SampleAccount4"
+            },
+            "Name" : "United Oil Gas, Singapore",
+            "Type" : "Customer - Direct",
+            "Phone" : "(650) 450-8810",
+            "AccountNumber" : "CD355120-B",
+            "Industry" : "Energy",
+            "AnnualRevenue" : 30000000,
+            "website" : "http://www.uos.com",
+            "BillingStreet" : "9 Tagore Lane",
+            "BillingCity" : "Singapore",
+            "BillingState" : "Singapore",
+            "BillingPostalCode" : "787472",
+            "BillingCountry" : "Singapore"
+        },
+        {
+            "attributes" :{
+                "type": "Account",
+                "referenceId": "SampleAccount5"
+            },
+            "Name" : "Edge Communications",
+            "Type" : "Customer - Direct",
+            "Phone" : "(512) 757-6000",
+            "AccountNumber" : "CD451796",
+            "Industry" : "Electronics",
+            "AnnualRevenue" : 139000000,
+            "website" : "http://edgecomm.com",
+            "BillingStreet" : "312 Constitution Place",
+            "BillingCity" : "Austin",
+            "BillingState" : "TX",
+            "BillingPostalCode" : "78767",
+            "BillingCountry" : "United States"
+        },
+        {
+            "attributes" :{
+                "type": "Account",
+                "referenceId": "SampleAccount6"
+            },
+            "Name" : "Burlington Textiles Corp of America",
+            "Type" : "Customer - Direct",
+            "Phone" : "(336) 222-7000",
+            "AccountNumber" : "CD656092",
+            "Industry" : "Apparel",
+            "AnnualRevenue" : 350000000,
+            "website" : "http://www.burlington.com",
+            "BillingStreet" : "525 S. Lexington Ave",
+            "BillingCity" : "Burlington",
+            "BillingState" : "NC",
+            "BillingPostalCode" : "27215",
+            "BillingCountry" : "United States"
+        },
+        {
+            "attributes" :{
+                "type": "Account",
+                "referenceId": "SampleAccount7"
+            },
+            "Name" : "Pyramid Construction Inc.",
+            "Type" : "Customer - Channel",
+            "Phone" : "(336) 222-7000",
+            "AccountNumber" : "CC213425",
+            "Industry" : "Construction",
+            "AnnualRevenue" : 950000000,
+            "website" : "http://www.pyramid.com",
+            "BillingStreet" : "2 Place Jussieu",
+            "BillingCity" : "Paris",
+            "BillingState" : "Paris",
+            "BillingPostalCode" : "75251",
+            "BillingCountry" : "France"
+        },
+        {
+            "attributes" :{
+                "type": "Account",
+                "referenceId": "SampleAccount8"
+            },
+            "Name" : "Dickenson plc",
+            "Type" : "Consulting",
+            "Phone" : "(785) 241-6200",
+            "AccountNumber" : "CC634267",
+            "Industry" : "Construction",
+            "AnnualRevenue" : 50000000,
+            "website" : "http://dickenson-consulting.com",
+            "BillingStreet" : "1301 Hoch Drive",
+            "BillingCity" : "Lawrence",
+            "BillingState" : "KS",
+            "BillingPostalCode" : "66045",
+            "BillingCountry" : "France"
+        }
+    ]
+
+}
