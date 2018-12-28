@@ -1,6 +1,9 @@
 # Sample-Accounts-LWC Lightning Web Component
 Sample Lightning Web component showing uses of Lightning Data Table, Displaying Lookup fields data in Data Table, Lightning Record Form, Lightning Map and how to call an apex class to get list of accounts.
 
+## Demo
+<img src="https://github.com/thatherahere/Sample-Accounts-LWC/blob/master/demo.gif"/>
+
 ## Installing using Salesforce DX
 
 1. Set up your environment. Follow the steps in the [Quick Start: Lightning Web Components](https://trailhead.salesforce.com/content/learn/projects/quick-start-lightning-web-components/) Trailhead project. The steps include:
@@ -10,7 +13,7 @@ Sample Lightning Web component showing uses of Lightning Data Table, Displaying 
     - Install Visual Studio Code
     - Install the Visual Studio Code Salesforce extensions, including the Lightning Web Components extension
 
-1. If you haven't already done so, authenticate with your Spring '19 hub org and provide it with an alias (spring19hub):
+1. If you haven't already done so, authenticate with your Spring '19 hub org and provide it with an alias (devhub):
 
     ```
     sfdx force:auth:web:login -d -a devhub
@@ -41,7 +44,7 @@ Sample Lightning Web component showing uses of Lightning Data Table, Displaying 
     sfdx force:user:permset:assign -n Account_LWC
     ```
 
-1. Load sample data:
+1. Load sample account records:
 
     ```
     sfdx force:data:tree:import --plan ./data/data-plan.json
