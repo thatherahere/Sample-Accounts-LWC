@@ -2,7 +2,6 @@ import { LightningElement, track, wire, api } from 'lwc';
 import { NavigationMixin } from 'lightning/navigation';
 import getRecentModifiedAccounts from "@salesforce/apex/AccountListController.getRecentModifiedAccounts"
 
-
 // Fields to Display for Selected record in RecordForm
 const fields=['Name','AccountNumber','OwnerId','AccountSource','ParentId','AnnualRevenue','Type','CreatedById','LastModifiedById','Industry','Description','Phone'];
 
@@ -21,11 +20,11 @@ export default class Accounts extends NavigationMixin(LightningElement) {
     @api recordId;
     @track accounts;
     @track error;
-    @track fields = fields;
-    @track columns = columns;
-    @track maxRowSelection = 1;
     @track mapMarkers = [];
-    @track zoomLevel=16;
+    fields = fields;
+    columns = columns;
+    maxRowSelection = 1;
+    zoomLevel=16;
 
     @wire(getRecentModifiedAccounts)
     wiredAccounts({error, data}){
