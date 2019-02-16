@@ -3,8 +3,8 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
-            "c/accounts": [
-                "Accounts/Accounts.js"
+            "c/sample-lwc": [
+                "sampleLWC/sampleLWC.js"
             ]
         }
     },
