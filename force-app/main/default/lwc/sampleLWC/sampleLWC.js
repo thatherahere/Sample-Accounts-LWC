@@ -16,7 +16,7 @@ const columns = [
     {label: 'Account Owner', fieldName: 'OwnerId', type: 'url', typeAttributes: { label:{fieldName:'OwnerName'}, tooltip:{fieldName:'OwnerName'}, target: '_parent'}},
 ];
 
-export default class Accounts extends NavigationMixin(LightningElement) {
+export default class Sample_LWC extends NavigationMixin(LightningElement) {
     @api recordId;
     @track accounts;
     @track error;

@@ -38,10 +38,10 @@ Sample Lightning Web component showing uses of Lightning Data Table, Displaying 
     sfdx force:source:push
     ```
 
-1. Assign the **Account_LWC** permission set to the default user:
+1. Assign the **Custom_Permissions** permission set to the default user:
 
     ```
-    sfdx force:user:permset:assign -n Account_LWC
+    sfdx force:user:permset:assign -n Custom_Permissions
     ```
 
 1. Load sample account records:
@@ -55,4 +55,4 @@ Sample Lightning Web component showing uses of Lightning Data Table, Displaying 
     ```
     sfdx force:org:open
     ```
-1. In App Launcher, select the **Accounts** (Custom Tab).
+1. In App Launcher, select the **Sample LWC** tab.
